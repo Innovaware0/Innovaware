@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:  #00137d; 
+}
+
+.navbar {
+    background-color:  #ffffff; 
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 90px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+.logo2 {
+    color: rgb(0, 213, 255);
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 80px;
+} 
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color:  #00137d;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #569aff; 
+}
+
+.hero {
+    height: 200px;
+}
+
+.hero-content {
+    max-width: 400px;
+    margin: auto;
+}
+
+.hacemos {
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 140px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+}
+
+.quehacemos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 165px;
+    font-weight: 400;
+    position: absolute;
+    left: 470px;
+    text-align: left;
+}
+
+.por { 
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 270px;
+    font-weight: 700;
+    position: absolute;
+    left: 42px;
+}
+
+.porque { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 290px;
+    font-weight: 800;
+    position: absolute;
+    left: 467px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.como {
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 400px;
+    font-weight: 700;
+    position: absolute;
+    left: 25px;
+}
+
+.comohacemos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 425px;
+    font-weight: 400;
+    position: absolute;
+    left: 465px;
+    text-align: left;
+}
+
+.mision { 
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 545px;
+    font-weight: 700;
+    position: absolute;
+    left: 42px;
+}
+
+.misionr { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 565px;
+    font-weight: 800;
+    position: absolute;
+    left: 465px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.mision { 
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 545px;
+    font-weight: 700;
+    position: absolute;
+    left: 52px;
+}
+
+.misionr { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 565px;
+    font-weight: 800;
+    position: absolute;
+    left: 465px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.vision { 
+    color: rgb(86, 202, 255);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    position: absolute;
+    top: 685px;
+    font-weight: 700;
+    position: absolute;
+    left: 22px;
+}
+
+.visionr { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0;
+    width: 40%;
+    position: absolute;
+    top: 705px;
+    font-weight: 800;
+    position: absolute;
+    left: 465px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.pelota1, .pelota2, .pelota3, .pelota4, .pelota5, .pelota6{
+    width: 100px; /* Ancho de los divs */
+    height: 100px; /* Alto de los divs */
+    border-radius: 50%; /* Hace que sean redondos */
+    display: flex; /* Para centrar el contenido dentro */
+    justify-content: center; /* Centrar horizontalmente */
+    margin: 10px; /* Espacio entre los divs */
+}
+
+.pelota1 {
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    background-color: #97f6ff;
+    
+}
+
+.pelota2 {
+    position: absolute;
+    top: 325px;
+    left: 200px;
+    background-color: #0095ff;
+}
+
+.pelota3 {
+    position: absolute;
+    top: 460px;
+    left: 200px;
+    background-color:  #002aff;
+}
+
+.pelota4 {
+    position: absolute;
+    top: 470px;
+    right: 200px;
+    background-color:  #002aff;
+}
+
+.pelota5 {
+    position: absolute;
+    top: 605px;
+    right: 200px;
+    background-color: #0095ff;
+}
+
+.pelota6 {
+    position: absolute;
+    top: 740px;
+    right: 200px;
+    background-color: #97f6ff;
+}
+
+footer {
+    background-color: #ffffff; /* Azul oscuro */
+    color: #00137d;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 130%;
+    width: 100%;
+}

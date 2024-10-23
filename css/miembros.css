@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #caf9fd;
+}
+
+.navbar {
+    background-color: #00137d;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 90px;
+    position: absolute;
+    left: 62px;
+    top: 15px;
+}
+
+.logo2 {
+    color: rgb(0, 213, 255);
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #66a3ff;
+}
+
+.hero {
+    background-color: #66a3ff;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+p {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 85px 0;
+    width: 90%;
+    height: 90%;
+    padding: 0 75px;
+}
+
+.card {
+    background-color: #00137d;
+    width: 240px;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+
+}
+
+
+.avatar {
+    width: 123px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.riveroimagen {
+    background-image: url(../img/rivero.jpg);
+    border-radius: 50%;
+    background-size: 140px;
+    background-repeat: no-repeat;
+}
+
+.castroimagen {
+    background-image: url(../img/castro.jpg);
+    border-radius: 50%;
+    background-size: 140px;
+    background-repeat: no-repeat;
+}
+
+.facuimagen {
+    background-image: url(../img/facu.jpg);
+    border-radius: 50%;
+    background-size: 140px;
+    background-repeat: no-repeat;
+}
+
+.nachoimagen {
+    background-image: url(../img/nacho.jpg);
+    border-radius: 50%;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44%;
+}
+
+.riveroL {
+    background-image: url(../img/linkedin.png);
+    background-size: cover;
+    background-position: center;
+    width: 34px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.riveroI {
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.castro {
+    background-color: #00137d;
+    width: 240px;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    left: 487px;
+    top: 210px;
+    border-radius: 15px;
+}
+
+
+
+.castroL {
+    background-image: url(../img/linkedin.png);
+    background-size: cover;
+    background-position: center;
+    width: 34px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.castroI {
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.facu {
+    background-color: #00137d;
+    width: 240px;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+
+
+.facuL {
+    background-image: url(../img/linkedin.png);
+    background-size: cover;
+    background-position: center;
+    width: 34px;
+    height: 30px;
+    margin: 10px;
+}
+
+.facuI {
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+
+.nacho {
+    background-color: #00137d;
+    width: 240px;
+    height: 290px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+
+.nachoL {
+    background-image: url(../img/linkedin.png);
+    background-size: cover;
+    background-position: center;
+    width: 34px;
+    height: 30px;
+    margin: 10px;
+}
+
+.nachoI {
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #00137d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

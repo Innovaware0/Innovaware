@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Innovaware</title>
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo1">Innova</h1>
+            <h1 class="logo2">ware</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="miembros.html">Miembros</a></li>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+                <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="contact-container">
+            <form class="contact-form">
+                <label class="nombre" for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label class="email" for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label class="mensaje" for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.+Luis+Alberto+de+Herrera+
+                        1248%2C+11300+Montevideo%2C+Departamento+de+Montevideo&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" 
+                        marginwidth="0"></iframe><a
+                            href="https://www.alarm-clock.net">
+                        </a><br><a href="https://www.timeronline.net">
+                        </a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 300px;
+                                width: 600px;
+                               
+                            }
+                        </style><a href="https://www.ongooglemaps.com"></a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 400px;
+                                width: 600px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay" id="overlay" style="display: none;"></div>
+    <div class="popup" id="popup" style="display: none;">
+        <h2>Mensaje Enviado</h2>
+        <p>Gracias por tu mensaje.</p>
+        
+            <p>Nos pondremos en contacto pronto.</p>
+        <button id="closePopup">Cerrar</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Innovaware. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/contactos.js"></script>
+</body>
+
+</html>

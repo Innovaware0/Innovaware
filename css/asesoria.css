@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f426; /* Fondo claro para toda la página */
+}
+
+.navbar {
+    background-color:#081a7f; /* Azul oscuro */
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 90px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+.logo2 {
+    color: rgb(0, 225, 255);
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #66a3ff; /* Azul claro para el hover */
+}
+
+.hero {
+    background-image:url(../img/por-que-elegir-una-empresa-de-asesoria-empresarial-1.webp); /* Imagen de fondo */
+    color: white;
+    text-align: center;
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    
+}
+
+.hero-content .titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #00137d4e; /* Azul oscuro */
+    width: 50%;
+    border-radius: 20px;
+    margin:0 auto;
+ 
+}
+
+.back-to-top {
+    position: fixed; /* Mantiene el botón fijo en la esquina */
+    bottom: 20px; /* Distancia desde el fondo */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: #081a7f; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 50%; /* Hacerlo redondo */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Quitar subrayado */
+    font-size: 20px; /* Tamaño de la fuente */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    display: none; /* Inicialmente oculto */
+    transition: background-color 0.3s; /* Transición de color */
+}
+
+.back-to-top:hover {
+    background-color: #66a3ff; /* Color al pasar el mouse */
+}
+
+
+
+
+.button {
+    background-color: #00137d;/* Azul oscuro */
+    color: white;
+    padding: 25px 40px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 490px;
+    right: 43%;
+    
+    
+}
+
+.about {
+    text-align: center;
+    padding: 60px 0;
+    height: 380px;
+    width: 100%;
+    background-color:#00137d; 
+    display: flex; 
+    justify-content: space-around;
+    
+}
+
+.personas, .negociacion, .estrategia {
+    width: 120px; /* Ancho de los divs */
+    height: 120px; /* Alto de los divs */
+    
+    border: #ffffff solid 50px;
+    display: flex; /* Para centrar el contenido dentro */
+
+    box-shadow: 0 2px 10px rgb(0, 0, 0); /* Sombra sutil */
+    margin: 10px; /* Espacio entre los divs */
+    background-color: #fff;
+}
+
+.personas { 
+    position : absolute; 
+    top: 800px;
+    left: 270px;
+    background-image: url(../img/management.png); 
+    background-size: 120px;   
+    background-repeat: no-repeat;
+    border-radius: 20%;
+
+}
+
+.personasD {
+    color: #ffffff;
+    position: absolute;
+    left: 20%;
+    top: 1030px;
+    width: 11%;
+}
+
+.personasT {
+    color: #ffffff;
+    position: absolute;
+    left: 17%;
+    top: 1070px;
+    width: 17%;
+}
+
+
+
+.negociacion { 
+    position : absolute; /*olute; /* Posición absoluta */
+    top: 800px;
+    left: 645px;
+    background-image: url(../img/contract-agreement.png); 
+    background-size: 120px;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+
+}
+
+.negociacionD {
+    color: #ffffff;
+    position: absolute;
+    left: 44.8%;
+    top: 1030px;
+    width: 11%;
+}
+
+.negociacionT {
+    color: #ffffff;
+    position: absolute;
+    left: 42.5%;
+    top: 1070px;
+    width: 15.5%;
+}
+
+
+.estrategia {  
+    position : absolute; /*olute; /* Posición absoluta */
+    top: 800px;
+    right: 270px;
+    background-image: url(../img/strategy.png); 
+    background-size: 125px;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+}
+
+.estrategiaD {
+    color: #ffffff;
+    position: absolute;
+    left: 69%;
+    top: 1030px;
+    width: 11%;
+}
+
+.estrategiaT {
+    color: #ffffff;
+    position: absolute;
+    left: 66%;
+    top: 1070px;
+    width: 17%;
+}
+
+
+h2 {
+    color: #ffffff; 
+    font-size: 24px;
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 54px;
+}
+
+.cosito {
+
+    color: #ffffff;
+    position: absolute;
+    left: 36%;
+    top: 730px;
+}
+
+
+
+.cosote {
+    color: #00137d;
+    position: absolute;
+    left: 17%;
+    top: 1290px;
+    background-color:#cefff4;
+    width: 65%;
+}
+
+.cosotote {
+    color: #00137d;
+    position: absolute;
+    left: 28%;
+    top: 1320px;
+    background-color: #cefff4;
+    width: 60%;
+}
+
+#desc {
+    background-color:  #cefff4; /* Fondo claro */
+    height: 250px;
+}
+
+footer {
+    background-color:  #00137d; /* Azul oscuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
